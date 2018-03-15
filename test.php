@@ -2,6 +2,7 @@
 
 use Nfq\Academy\Homework\ClassA;
 use Nfq\Academy\Homework\Subpackage\ClassB;
+use Acme\Package\ClassC;
 
 require_once __DIR__.'/bootstrap.php';
 
@@ -12,3 +13,6 @@ $a->doSomething();
 
 $b = new ClassB();
 $b->doSomething();
+
+// $c = new ClassC();
+// $c->doSomething();
